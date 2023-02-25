@@ -4,24 +4,42 @@ body,h1{
     margin:0;
 }
 
-div {
-    background-image:url(../IMG/banner-bg.png);
-    /* vh= aréa de visualização do site, no caso a caixinha selecionada aqui no arquivo div */
+.inicio {
+/* vh= aréa de visualização do site, no caso a caixinha selecionada aqui no arquivo div */
 /* esse back..repet é pra que quando diminuir o zoom da tela não repetir a imagem */
-    background-repeat: no-repeat;
 /* esse back..size serve pra esticar a imagem(cover) no site */
+/* display flex da pra usar outros comandos de direcionamento, serve pra organizar os elementos do site(texto..) */
+    background-image:url(../IMG/banner-bg.png);
+    background-repeat: no-repeat;
     background-size: cover;
-    height: 90vh;    
+    height: 90vh;  
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
 }
 
-h1,p {
+.inicio h1,
+.inicio p {
     color: white;
 }
 
+h2,
+h3 {
+    margin-left: 10px;
+}
 button {
     background-color: white;
     padding: 10px;
     color: #7E4598;
     border-radius: 30px;
     
+}
+
+.descricao,
+.habilidades {
+    width: 40%;
+    display: inline-block;
+    margin-left: 10px;
+    /* inline block mexe na altura e elemento do site assim conseguindo colocar um do lado do outro */
 }
