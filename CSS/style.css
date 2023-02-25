@@ -1,3 +1,27 @@
-body {
+/* Usar " * " no html faz tudo que tiver dentro servir pra tudo no site */
+
+body,h1{
+    margin:0;
+}
+
+div {
+    background-image:url(../IMG/banner-bg.png);
+    /* vh= aréa de visualização do site, no caso a caixinha selecionada aqui no arquivo div */
+/* esse back..repet é pra que quando diminuir o zoom da tela não repetir a imagem */
+    background-repeat: no-repeat;
+/* esse back..size serve pra esticar a imagem(cover) no site */
+    background-size: cover;
+    height: 90vh;    
+}
+
+h1,p {
+    color: white;
+}
+
+button {
+    background-color: white;
+    padding: 10px;
+    color: #7E4598;
+    border-radius: 30px;
     
 }
