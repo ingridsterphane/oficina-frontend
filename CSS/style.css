@@ -12,7 +12,7 @@ body,h1{
     background-image:url(../IMG/banner-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 90vh;  
+    height: 100vh;  
     display:flex;
     flex-direction:column;
     justify-content:center;
@@ -24,8 +24,7 @@ body,h1{
     color: white;
 }
 
-h2,
-h3 {
+h2{
     margin-left: 10px;
 }
 button {
@@ -43,3 +42,39 @@ button {
     margin-left: 10px;
     /* inline block mexe na altura e elemento do site assim conseguindo colocar um do lado do outro */
 }
+
+.Redes-sociais{
+    text-align:center;
+    display: flex;
+    justify-content: space-around;
+}
+.redes-sociais-link{
+    width: 20%;
+    background-color:#7E459B;
+    padding:6rem 0rem;
+    color:black;
+    margin-top:3rem;  
+}
+
+.redes-sociais_img{
+    margin-top: 5rem;
+   margin-left: 100px;
+   margin-right: 100px;
+    
+}
+
+.redes-sociais_titulo{
+    font-size:1.6rem;  
+    margin-bottom: 1rem; 
+    margin-left: 100px;
+    margin-right:100px; 
+}
+
+.Redes-sociais p {  
+    margin-left: 100px;
+    margin-right:100px; 
+    margin-bottom: 1rem; 
+}
+
+
+
