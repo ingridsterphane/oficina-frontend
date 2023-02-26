@@ -25,8 +25,8 @@ h1 {
 
 .inicio h1,
 .inicio p {
-    color: rgb(31, 30, 30);
-    background-color: rgb(202, 200, 206);
+    color: rgb(30, 30, 31);
+    background-color: rgb(151, 161, 218);
 }
 
 
@@ -38,7 +38,7 @@ h2 {
 }
 
 button {
-    background-color: white;
+    background-color:rgb(151, 161, 218)e;
     padding: 10px;
     color: black;
     border-radius: 30px;
