@@ -59,12 +59,12 @@ button {
     /* inline block mexe na altura e elemento do site assim conseguindo colocar um do lado do outro */
 }
 
-
 .Redes-sociais {
     text-align: center;
     display: flex;
     justify-content: space-around;
     margin-top: 3rem;
+
 }
 
 .redes-sociais-link {
@@ -74,15 +74,12 @@ button {
     color: white;
     margin-top: 3rem 0rem;
 
-
-
 }
 
 .redes-sociais_img {
     margin-top: 3rem;
     margin-left: 100px;
     margin-right: 100px;
-
 
 }
 
@@ -108,5 +105,4 @@ button {
     .sobre h2 {
         margin-top: -5rem;
     }
-   
 }
