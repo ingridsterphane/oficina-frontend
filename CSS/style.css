@@ -69,12 +69,14 @@ button {
     background-color:#16048C;
     padding:6rem 0rem;
     color:white;
-    margin-top:3rem;  
+    margin-top:3rem 0rem;
+     
+
     
 }
 
 .redes-sociais_img{
-    margin-top: 5rem;
+    margin-top: 3rem;
    margin-left: 100px;
    margin-right: 100px;
   
@@ -89,8 +91,8 @@ button {
 }
 
 .Redes-sociais p {  
-    margin-left: 100px;
-    margin-right:100px; 
+    margin-left: 90px;
+    margin-right:90px; 
     margin-bottom: 1rem; 
 }
 
