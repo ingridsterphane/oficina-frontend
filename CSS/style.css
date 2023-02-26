@@ -6,6 +6,7 @@ body,h1{
    
 }
 
+
 .inicio {
 /* vh= aréa de visualização do site, no caso a caixinha selecionada aqui no arquivo div */
 /* esse back..repet é pra que quando diminuir o zoom da tela não repetir a imagem */
@@ -91,5 +92,14 @@ button {
     margin-left: 100px;
     margin-right:100px; 
     margin-bottom: 1rem; 
+}
+
+@media(max-width:800px){
+    .Redes-sociais{
+        display: flex;
+        flex-direction:column;
+        width: 100%;
+    }
+
 }
 
