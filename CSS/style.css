@@ -1,25 +1,26 @@
 /* Usar " * " no html faz tudo que tiver dentro servir pra tudo no site */
 
-body,h1{
-    margin:0px;
-    background-color:#010326;
-   
+body,
+h1 {
+    margin: 0px;
+    background-color: #010326;
+
 }
 
 
 .inicio {
-/* vh= aréa de visualização do site, no caso a caixinha selecionada aqui no arquivo div */
-/* esse back..repet é pra que quando diminuir o zoom da tela não repetir a imagem */
-/* esse back..size serve pra esticar a imagem(cover) no site */
-/* display flex da pra usar outros comandos de direcionamento, serve pra organizar os elementos do site(texto..) */
-    background-image:url(../IMG/COOL\ PIXEL\ GIF_.gif);
+    /* vh= aréa de visualização do site, no caso a caixinha selecionada aqui no arquivo div */
+    /* esse back..repet é pra que quando diminuir o zoom da tela não repetir a imagem */
+    /* esse back..size serve pra esticar a imagem(cover) no site */
+    /* display flex da pra usar outros comandos de direcionamento, serve pra organizar os elementos do site(texto..) */
+    background-image: url(../IMG/COOL\ PIXEL\ GIF_.gif);
     background-repeat: no-repeat;
-    background-size: cover;
-    height: 90vh;  
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
-    align-items:center;
+    background-size:100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .inicio h1,
@@ -29,79 +30,79 @@ body,h1{
 }
 
 
-h2{
+h2 {
     color: white;
     margin-left: 70px;
     margin-bottom: 1px;
-   
+
 }
 
 button {
     background-color: white;
     padding: 10px;
-    color:black;
+    color: black;
     border-radius: 30px;
-    margin-top: 15px;
+    margin-top: 2px;
     margin-bottom: 0.2rem;
     border-color: rgb(16, 208, 242);
-    
+
 }
 
 .descricao,
 .habilidades {
     color: white;
-    width:40%;
+    width: 40%;
     display: inline-block;
     margin-left: 70px;
     margin-top: 1px;
-    margin-bottom:10px;
+    margin-bottom: 10px;
     /* inline block mexe na altura e elemento do site assim conseguindo colocar um do lado do outro */
 }
 
 
-.Redes-sociais{
-    text-align:center;
+.Redes-sociais {
+    text-align: center;
     display: flex;
-    justify-content:space-around;
+    justify-content: space-around;
 }
-.redes-sociais-link{
+
+.redes-sociais-link {
     width: 20%;
-    background-color:#16048C;
-    padding:6rem 0rem;
-    color:white;
-    margin-top:3rem 0rem;
-     
+    background-color: #16048C;
+    padding: 6rem 0rem;
+    color: white;
+    margin-top: 3rem 0rem;
 
-    
+
+
 }
 
-.redes-sociais_img{
+.redes-sociais_img {
     margin-top: 3rem;
-   margin-left: 100px;
-   margin-right: 100px;
-  
-    
-}
-
-.redes-sociais_titulo{
-    font-size:1.6rem;  
-    margin-bottom: 1rem; 
     margin-left: 100px;
-    margin-right:100px; 
+    margin-right: 100px;
+
+
 }
 
-.Redes-sociais p {  
+.redes-sociais_titulo {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.Redes-sociais p {
     margin-left: 90px;
-    margin-right:90px; 
-    margin-bottom: 1rem; 
+    margin-right: 90px;
+    margin-bottom: 1rem;
 }
 
-@media(max-width:800px){
-    .Redes-sociais{
+@media(max-width:800px) {
+    .Redes-sociais {
         display: flex;
-        flex-direction:column;
+        flex-direction: column;
         width: 100%;
     }
-
+   
 }
-
