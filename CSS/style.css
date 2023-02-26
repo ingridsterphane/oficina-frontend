@@ -1,7 +1,9 @@
 /* Usar " * " no html faz tudo que tiver dentro servir pra tudo no site */
 
 body,h1{
-    margin:0;
+    margin:0px;
+    background-color:#010326;
+   
 }
 
 .inicio {
@@ -9,10 +11,10 @@ body,h1{
 /* esse back..repet é pra que quando diminuir o zoom da tela não repetir a imagem */
 /* esse back..size serve pra esticar a imagem(cover) no site */
 /* display flex da pra usar outros comandos de direcionamento, serve pra organizar os elementos do site(texto..) */
-    background-image:url(../IMG/banner-bg.png);
+    background-image:url(../IMG/COOL\ PIXEL\ GIF_.gif);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;  
+    height: 90vh;  
     display:flex;
     flex-direction:column;
     justify-content:center;
@@ -21,45 +23,60 @@ body,h1{
 
 .inicio h1,
 .inicio p {
-    color: white;
+    color: rgb(31, 30, 30);
+    background-color: rgb(202, 200, 206);
 }
 
+
 h2{
-    margin-left: 10px;
+    color: white;
+    margin-left: 70px;
+    margin-bottom: 1px;
+   
 }
+
 button {
     background-color: white;
     padding: 10px;
-    color: #7E4598;
+    color:black;
     border-radius: 30px;
+    margin-top: 15px;
+    margin-bottom: 0.2rem;
+    border-color: rgb(16, 208, 242);
     
 }
 
 .descricao,
 .habilidades {
-    width: 40%;
+    color: white;
+    width:40%;
     display: inline-block;
-    margin-left: 10px;
+    margin-left: 70px;
+    margin-top: 1px;
+    margin-bottom:10px;
     /* inline block mexe na altura e elemento do site assim conseguindo colocar um do lado do outro */
 }
+
 
 .Redes-sociais{
     text-align:center;
     display: flex;
-    justify-content: space-around;
+    justify-content:space-around;
 }
 .redes-sociais-link{
     width: 20%;
-    background-color:#7E459B;
+    background-color:#16048C;
     padding:6rem 0rem;
-    color:black;
+    color:white;
     margin-top:3rem;  
+    
 }
 
 .redes-sociais_img{
     margin-top: 5rem;
    margin-left: 100px;
    margin-right: 100px;
+  
     
 }
 
@@ -75,6 +92,4 @@ button {
     margin-right:100px; 
     margin-bottom: 1rem; 
 }
-
-
 
